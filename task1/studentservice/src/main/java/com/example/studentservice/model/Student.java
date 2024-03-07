@@ -10,6 +10,9 @@ public class Student {
     private String role;
 
 
+
+
+
     public Student(Long id, String name, int age, String major, String role) {
         this.id = id;
         this.name = name;
@@ -17,7 +20,11 @@ public class Student {
         this.major = major;
         this.role = role;
 
+
+
+
     }
+
 
     public Long getId() {
         return id;
@@ -34,7 +41,13 @@ public class Student {
     public String getMajor() {
         return major;
     }
-    public String getRole() {return role;}
+
+    public String getRole() {
+        return role;
+    }
+
+
+
 
     public void setId(Long id) {
         this.id = id;
@@ -52,11 +65,19 @@ public class Student {
         this.major = major;
     }
 
-    public void setRole(String role) { this.role = role; }
-
-    public void update(Student updatedStudent) {
+    public void setRole(String role) {
+        this.role = role;
     }
 
 
+}
 
-   }
+
+
+
+
+
+
+
+
+
